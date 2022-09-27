@@ -68,20 +68,21 @@ h1 {
   border: none;
   outline: none;
   padding: 12px 16px;
-  background-color: white;
+  background-color: #666;
   cursor: pointer;
+  color: white;
 }
 
 /* Add a grey background color on mouse-over */
 .btn:hover {
-  background-color: #ddd;
+  background-color: #2F4F4F;
 }
 
-/* Add a dark background color to the active button */
+/* Add a dark background color to the active button 
 .btn.activefilter {
   background-color: #666;
    color: white;
-}
+} */
   </style>
   <title>Home</title>
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -137,10 +138,10 @@ h1 {
           <div class="d-flex-align-center">
             <div class="user-profile flex-1">
               <div id="myBtnContainer">
-                <button class="btn activefilter" onclick="filterSelection('all')"> Show all</button>
-                <button class="btn" onclick="filterSelection('nature')"> Nature</button>
-                <button class="btn" onclick="filterSelection('cars')"> Cars</button>
-                <button class="btn" onclick="filterSelection('people')"> People</button>
+                <button id=filter1 class="btn activefilter" onclick="filterSelection('all')"> Show all</button>
+                <button id=filter2 class="btn" onclick="filterSelection('nature')"> Nature</button>
+                <button id=filter3 class="btn" onclick="filterSelection('cars')"> Cars</button>
+
               </div>
               
               <!-- Portfolio Gallery Grid -->

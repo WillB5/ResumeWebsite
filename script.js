@@ -1,3 +1,5 @@
+//was part of photography.html, no longer used but here for reference.
+
 filterSelection("all") // Execute the function and show all columns
 function filterSelection(c) {
   var x, i;

@@ -1,136 +1,264 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Home</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <title>Home</title>
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-</head>
+  <body>
+    <div class="wraper">
+      <div class="container">
+        <div class="left-content p-30">
+          <div class="logo">
+            <a href="index.html">
+              <span>William</span>
+              <span>Barrera</span>
+            </a>
+          </div>
+          <div class="nav">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="education.html">Education</a></li>
+              <li><a href="workhistory.html">Work History</a></li>
+              <li><a href="projects.html">Projects</a></li>
+            </ul>
+          </div>
+          <div class="left-footer">
+            <div class="social-icons">
+              <ul>
+                <li>
+                  <a href="https://www.linkedin.com/in/willbarrera"
+                    ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://github.com/WillB5"
+                    ><i class="fa fa-github-square" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.flickr.com/people/194428356@N07/"
+                    ><i class="fa fa-flickr" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="foot-contact">
+              <ul>
+                <li>willbarrera9@gmail.com</li>
+                <li>+1 (608) 212-2962</li>
+              </ul>
+            </div>
 
-
-<body>
-  
-  <div class="wraper">
-    <div class="container">
-      <div class="left-content p-30">
-        <div class="logo">
-          <a href="index.html">
-            <span>William</span>
-            <span>Barrera</span>
-          </a>
+            <div class="copy-rights">
+              Copyright &copy;2022 All rights reserved
+            </div>
+          </div>
         </div>
-        <div class="nav">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="education.html">Education</a></li>
-            <li><a href="workhistory.html">Work History</a></li>
-            <li><a href="projects.html">Projects</a></li>
 
-          </ul>
-        </div>
-        <div class="left-footer">
-          <div class="social-icons">
-            <ul>
-              <li><a href="https://www.linkedin.com/in/willbarrera"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-              <li><a href="https://github.com/WillB5"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
-              <li><a href="https://www.flickr.com/people/194428356@N07/"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
-            </ul>
+        <!-- Display projects -->
+        <div class="main-content">
+          <div class="section1 p-30" id="Home">
+            <div class="sec-title">
+              <div class="pg-sub-title">Projects</div>
+            </div>
+            <div class="d-flex-align-center">
+              <div class="user-profile flex-1">
+                <!-- Project 1 -->
+                <div class="pro-details">
+                  <div class="role">Yu-Gi-Oh! Card Look up(Android App)</div>
+                </div>
+                <video width="320" height="240" controls>
+                  <source src="Photos/app_demo_video.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                <div class="text">
+                  This is an Android application I built to look up cards from
+                  the trading card game called "Yu-Gi-Oh!" It was designed to
+                  look up cards by name or ID number, since cards can be printed
+                  in different languages, but will always have the same ID
+                  number. This is useful if you are in a tournament setting and
+                  would like to check a card description of another player's
+                  card but do not understand the language it is printed in. The
+                  app will also display any restrictions placed on the card for
+                  competitive play if you need to make sure your cards are legal
+                  in a tournament.
+                </div>
+                <div class="text">
+                  Built using: Android Studio, Kotlin, Google's Volley Library,
+                  and an API provided by ygoprodeck.com
+                </div>
+                <br />
+                <a
+                  href="https://github.com/WillB5/YuGiOh_Card_Search_App"
+                  ,
+                  style="text-decoration: underline; color: blue"
+                  >Link to GitHub Repository</a
+                >
+                <br />
+                <!-- Project 2 -->
+                <br />
+                <hr />
+                <br />
+                <div class="role">Photography Portfolio</div>
+                <img
+                  src="/Photos/photographyPortfolio.jpg"
+                  width="320"
+                  height="240"
+                  style="border: 5px solid; margin-bottom: 10px"
+                />
+                <div class="text">
+                  I built my photography portfolio using HTML and CSS because I
+                  wanted a website to display my photography to potential
+                  clients. This was an improvement over using a WordPress
+                  website as I have complete control over the formatting and I
+                  do not have to pay a monthly fee to get rid of WordPress'
+                  restrictions and banners.
+                </div>
+                <div class="text">Built using: HTML and CSS</div>
+                <br />
+                <a
+                  href="https://github.com/WillB5/Photography-Porfolio-Website"
+                  ,
+                  style="text-decoration: underline; color: blue"
+                  >Link to GitHub Repository</a
+                >
+                <br />
+                <a
+                  href="https://photography-porfolio-website.pages.dev/#"
+                  ,
+                  style="text-decoration: underline; color: blue"
+                  >Link to Photography Portfolio</a
+                >
+                <br />
+                <!-- Project 3 -->
+                <br />
+                <hr />
+                <br />
+                <div class="role">Project Portfolio</div>
+                <div class="text">
+                  This refers to the current website you are on, I built this as
+                  a way to show employers some of my projects as well as
+                  providing a brief description about myself. The GitHub
+                  Repository will also show a photography page that I delisted
+                  once I decided to make a separate website for my photography,
+                  but the delisted page can be accessed
+                  <a
+                    href="photography.html"
+                    style="text-decoration: underline; color: blue"
+                    >here</a
+                  >.
+                </div>
+                <div class="text">Built using: HTML, CSS, and JavaScript.</div>
+                <br />
+                <a
+                  href="https://github.com/WillB5/ResumeWebsite"
+                  ,
+                  style="text-decoration: underline; color: blue"
+                  >Link to GitHub Repository</a
+                >
+                <br />
+                <!-- Project 4 -->
+                <br />
+                <hr />
+                <br />
+                <div class="role">Bubble; An Image Sharing Platform</div>
+                <video width="320" height="240" controls>
+                  <source src="Photos/Bubble_AppVideo.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                <div class="text">
+                  This is a website I built using the Django framework, it is a
+                  mock social media platform to share images for others to see,
+                  such as Instagram and Imgur. Other users will be able to see
+                  your photos and you will be able to see photos uploaded by
+                  other users. You will also be able to view all your own
+                  uploads on your own profile.
+                </div>
+                <div class="text">Built using: Python, HTML, Django</div>
+                <br />
+                <a
+                  href="https://github.com/WillB5/myApp"
+                  ,
+                  style="text-decoration: underline; color: blue"
+                  >Link to GitHub Repository</a
+                >
+                <br />
+                <!-- Project 5 -->
+                <br />
+                <hr />
+                <br />
+                <div class="role">Yu-Gi-Oh! Card Look up(React)</div>
+                <img
+                  src="/Photos/ReactAppScreenshot.png"
+                  width="320"
+                  height="240"
+                  style="border: 5px solid; margin-bottom: 10px"
+                />
+                <div class="text">
+                  This is a React website I built to look up cards from the
+                  trading card game called "Yu-Gi-Oh!" It functions similarly to
+                  the Android App I built for the same purpose, the user enters
+                  in a card name and it returns information received from an
+                  API.
+                </div>
+                <div class="text">Built using: React, HTML, JavaScript/JSX</div>
+                <br />
+                <a
+                  href="https://github.com/WillB5/react-practice"
+                  ,
+                  style="text-decoration: underline; color: blue"
+                  >Link to GitHub Repository</a
+                >
+                <br />
+                <!-- End of Projects -->
+                <div class="pr-list">
+                  <ul>
+                    <li>
+                      <i class="fa fa-phone" aria-hidden="true"></i>
+                      608-212-2962
+                    </li>
+                    <li>
+                      <i class="fa fa-envelope" aria-hidden="true"></i>
+                      willbarrera9@gmail.com
+                    </li>
+                    <li>
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+                      Madison, WI
+                    </li>
+                  </ul>
+                </div>
+                <div class="social-icons-head">
+                  <ul>
+                    <li>
+                      <a href="https://www.linkedin.com/in/willbarrera"
+                        ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/WillB5"
+                        ><i class="fa fa-github-square" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="https://www.flickr.com/people/194428356@N07/"
+                        ><i class="fa fa-flickr" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="foot-contact">
-            <ul>
-              <li>willbarrera9@gmail.com</li>
-              <li>+1 (608) 212-2962</li>
-            </ul>
-          </div>
-
-          <div class="copy-rights">Copyright &copy;2022 All rights reserved</div>
-        </div>
-      </div>
-
-<!-- Display projects -->
-<div class="main-content">
-    <div class="section1 p-30" id="Home">
-      <div class="sec-title">
-        <div class="pg-sub-title">Projects</div>
-      </div>
-      <div class="d-flex-align-center">
-        <div class="user-profile flex-1">
-
-          <!-- Project 1 -->
-          <div class="pro-details">
-            <div class="role">Yu-Gi-Oh! Card Look up</div>
-          </div>
-          <video width="320" height="240" controls>
-            <source src="Photos/app_demo_video.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video>
-          <div class="text">This is an Android application I built to look up cards from the trading card game called "Yu-Gi-Oh!" It was designed to look up cards by name or ID number, since cards can be printed in different languages, but will always have the same ID number. This is useful if you are in a tournament setting and would like to check a card description of another player's card but do not understand the language it is printed in. The app will also display any restrictions placed on the card for competitive play if you need to make sure your cards are legal in a tournament.</div>
-          <div class="text">Built using: Android Studio, Kotlin, Google's Volley Library, and an API provided by ygoprodeck.com</div>
-          <br>
-          <a href="https://github.com/WillB5/YuGiOh_Card_Search_App", style="text-decoration: underline; color: blue;">Link to GitHub Repository</a>
-          <br>
-          <!-- Project 2 -->
-          <br>
-          <hr>
-          <br>
-          <div class="role">Photography Portfolio</div>
-          <img src="/Photos/photographyPortfolio.jpg" width="320" height="240" style="border: 5px solid; margin-bottom: 10px;">
-          <div class="text">I built my photography portfolio using HTML and CSS because I wanted a website to display my photography to potential clients. This was an improvement over using a WordPress website as I have complete control over the formatting and I do not have to pay a monthly fee to get rid of WordPress' restrictions and banners.</div>
-          <div class="text">Built using: HTML and CSS</div>
-          <br>
-          <a href="https://github.com/WillB5/Photography-Porfolio-Website", style="text-decoration: underline; color: blue;">Link to GitHub Repository</a>
-          <br>
-          <a href="https://photography-porfolio-website.pages.dev/#", style="text-decoration: underline; color: blue;">Link to Photography Portfolio</a>
-          <br>
-          <!-- Project 3 -->
-          <br>
-          <hr>
-          <br>
-          <div class="role">Project Portfolio</div>
-          <div class="text">This refers to the current website you are on, I built this as a way to show employers some of my projects as well as providing a brief description about myself. The GitHub Repository will also show a photography page that I delisted once I decided to make a separate website for my photography, but the delisted page can be accessed <a href="photography.html" style="text-decoration: underline; color: blue;">here</a>.</div>
-          <div class="text">Built using: HTML, CSS, and JavaScript.</div>
-          <br>
-          <a href="https://github.com/WillB5/ResumeWebsite", style="text-decoration: underline; color: blue;">Link to GitHub Repository</a>
-          <br>     
-          <!-- Project 4 -->
-          <br>
-          <hr>
-          <br>
-          <div class="role">Bubble; An Image Sharing Platform</div>
-          <video width="320" height="240" controls>
-            <source src="Photos/Bubble_AppVideo.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video>
-          <div class="text">This is a website I built using the Django framework, it is a mock social media platform to share images for others to see, such as Instagram and Imgur. Other users will be able to see your photos and you will be able to see photos uploaded by other users. You will also be able to view all your own uploads on your own profile.</div>
-          <div class="text">Built using: Python, HTML, Django</div>
-          <br>
-          <a href="https://github.com/WillB5/myApp", style="text-decoration: underline; color: blue;">Link to GitHub Repository</a>
-          <br>     
-
-          <div class="pr-list">
-            <ul>
-              <li><i class="fa fa-phone" aria-hidden="true"></i> 608-212-2962</li>
-              <li><i class="fa fa-envelope" aria-hidden="true"></i> willbarrera9@gmail.com</li>
-              <li><i class="fa fa-map-marker" aria-hidden="true"></i> Madison, WI</li>
-            </ul>
-          </div>
-          <div class="social-icons-head">
-            <ul>
-              <li><a href="https://www.linkedin.com/in/willbarrera"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-              <li><a href="https://github.com/WillB5"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
-              <li><a href="https://www.flickr.com/people/194428356@N07/"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
-            </ul>
-          </div>
-
         </div>
       </div>
     </div>
-
-  </div>
-    </div>
-  </div>
-</body>
+  </body>
 </html>
